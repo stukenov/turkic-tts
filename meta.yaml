@@ -1,0 +1,9 @@
+espnet: 0.10.3a4
+files:
+  model_file: exp/tts_train_raw_char/train.loss.ave_5best.pth
+python: "3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:59:51) \n[GCC\
+  \ 9.4.0]"
+timestamp: 1641919865.515724
+torch: 1.7.0
+yaml_files:
+  train_config: exp/tts_train_raw_char/config.yaml
