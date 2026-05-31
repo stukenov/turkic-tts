@@ -3,8 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.10%2B-ee4c2c.svg)](https://pytorch.org/)
+[![Languages: Turkic](https://img.shields.io/badge/languages-Turkic%20(Kazakh)-009688.svg)](#-supported-languages)
 
 **High-quality Text-to-Speech system for Turkic languages, with a primary focus on Kazakh.**
+
+> Open-source, multi-speaker, emotion-controllable TTS for Turkic languages — synthesize natural Kazakh speech across 3 voices and 6 emotions from plain text.
 
 Turkic-TTS delivers natural-sounding speech synthesis powered by state-of-the-art neural architectures. Built on Grad-TTS with emotional voice synthesis capabilities, this system supports multiple speakers and emotions, making it ideal for applications ranging from voice assistants to audiobook narration.
 
@@ -116,6 +119,10 @@ python inference_EMA.py \
 # Coming soon: Python API example
 ```
 
+### 🔊 Audio Samples
+
+> **Note:** Pre-rendered audio samples are not yet bundled in this repository. To hear the model, download the pre-trained checkpoints (see above) and run the inference command — generated `.wav` files are written to your chosen output directory (e.g. `output_audio/`). Contributions of curated demo clips are welcome.
+
 ## 🏋️ Training
 
 ### Data Preparation
@@ -191,6 +198,15 @@ While optimized for **Kazakh**, the IPA conversion module includes support for:
 - Bashkir
 - Sakha (Yakut)
 - Uyghur
+
+## 🔗 Related projects
+
+Turkic-TTS is part of a broader open-source Kazakh-language AI stack. If you're building speech and language tools for Kazakh, you may also find these useful:
+
+- [kazakh-nlp-toolkit](https://github.com/stukenov/kazakh-nlp-toolkit) — Natural language processing utilities for Kazakh.
+- [slm](https://github.com/stukenov/slm) — Small language model work for Kazakh / low-resource settings.
+- [kazakh-speech-pipeline](https://github.com/stukenov/kazakh-speech-pipeline) — End-to-end speech data and processing pipeline for Kazakh.
+- [qazlang](https://github.com/stukenov/qazlang) — Kazakh language resources and tooling.
 
 ## 🤝 Contributing
 
