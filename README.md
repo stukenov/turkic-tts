@@ -65,8 +65,7 @@ cd ../..
 
 ### Download Pre-trained Models
 
-Pre-trained models are available on HuggingFace:
-- **Main repository**: [stukenov/turkic-tts-models](https://huggingface.co/stukenov/turkic-tts-models)
+Pre-trained checkpoints are not published at the moment — train your own (see [Training](#-training)) or use checkpoints you already have.
 
 Download the models and place them in the appropriate directories:
 - TTS model checkpoint → `pt_10000/`
@@ -121,7 +120,7 @@ python inference_EMA.py \
 
 ### 🔊 Audio Samples
 
-> **Note:** Pre-rendered audio samples are not yet bundled in this repository. To hear the model, download the pre-trained checkpoints (see above) and run the inference command — generated `.wav` files are written to your chosen output directory (e.g. `output_audio/`). Contributions of curated demo clips are welcome.
+> **Note:** Pre-rendered audio samples are not yet bundled in this repository. To hear the model, get the checkpoints (see above) and run the inference command — generated `.wav` files are written to your chosen output directory (e.g. `output_audio/`). Contributions of curated demo clips are welcome.
 
 ## 🏋️ Training
 
